@@ -37,7 +37,9 @@
       </q-toolbar>
     </q-header>
 
-    <q-page-container>
+    <q-page-container
+      class="bg-grey-1"
+    >
       <router-view />
     </q-page-container>
     <q-footer
@@ -81,7 +83,6 @@ export default {
       height: 77px
   .q-toolbar__title
     font-size: 30px
-    font-weight: bold
     @media (max-width: $breakpoint-xs-max)
       text-align: center
   .q-footer
